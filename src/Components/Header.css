@@ -1,0 +1,23 @@
+/** @format */
+.Header {
+	background-color: #f18f01;
+	width: 100%;
+	color: white;
+	display: flex;
+	margin-bottom: 2.5em;
+}
+
+.original-link {
+	color: white;
+	text-decoration: none;
+	font-size: 1.25em;
+	padding: 4px 10px;
+	border-radius: 10px;
+}
+.original-link:hover,
+.original-link:focus {
+	color: white;
+	background-color: rgb(241, 113, 1);
+	text-decoration: none;
+	font-size: 1.25em;
+}

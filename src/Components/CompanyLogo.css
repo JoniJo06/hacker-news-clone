@@ -1,0 +1,16 @@
+/** @format */
+.company-logo {
+	display: flex;
+	align-items: center;
+}
+.company-name-2 {
+	font-size: 0.5em;
+	margin-left: 0.5em;
+	font-weight: 300;
+}
+
+.company-logo-icon {
+	align-self: center;
+	margin-right: 10px;
+	color: #006e90;
+}

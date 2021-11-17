@@ -1,0 +1,95 @@
+/** @format */
+body {
+	background-color: #bdbdbd;
+}
+
+.NewsContainer {
+	margin-bottom: 3em;
+}
+
+.NewsCard {
+	background: white;
+	margin: 1em 0;
+	height: 4em;
+	display: flex !important;
+	justify-content: space-between;
+	padding-right: 0 !important;
+	color: black;
+}
+
+.newsInfo h3 {
+	color: #41bbd9;
+}
+
+.NewsCard a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #f18f01;
+	margin: 0;
+	color: white;
+	text-decoration: none;
+	width: 15%;
+}
+.NewsCard a:hover,
+.NewsCard a:focus {
+	background-color: rgb(241, 113, 1);
+}
+
+.NewsCard > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 6px 0;
+}
+
+.newsPagination ul {
+	justify-content: center;
+}
+
+.loadingSpinner {
+	margin-top: 5em;
+	margin-left: 42%;
+	width: 5em !important;
+	height: 5em !important;
+}
+
+.hitsPerPageDisabled {
+	background-color: lightgray;
+	color: white;
+}
+
+.searchField {
+	outline: none;
+	width: 100%;
+	border: none;
+	font-size: 1.5em;
+	padding: 5px;
+	height: 2em;
+}
+
+.searchInput {
+}
+
+.searchSubmit {
+	background-color: #f18f01;
+}
+
+.searchHitsPerPage {
+	background-color: #f18f01;
+	text-align: center;
+}
+.searchHitsPerPage option {
+	word-break: break-all !important;
+}
+
+.SearchBar {
+	color: white;
+}
+.searchForm {
+}
+
+.SearchBar .company-logo {
+	font-size: 1.3em;
+}
