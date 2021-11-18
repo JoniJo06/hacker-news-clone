@@ -11,6 +11,9 @@ const NewsCard = ({ title, author, date, url }) => {
 		// console.log(temp[i]);
 	}
 	const editDate = temp2.join('');
+	console.log(url);
+
+	const style = url === null ? 'none' : 'all';
 	return (
 		<Container className='NewsCard'>
 			<div className='newsInfo'>
@@ -20,7 +23,7 @@ const NewsCard = ({ title, author, date, url }) => {
 				</p>
 			</div>
 
-			<a href={url}>
+			<a href={url} style={{ pointerEvents: `${style}` }}>
 				<FormatListBulletedIcon />
 				<span>Zum Artikel</span>
 			</a>
