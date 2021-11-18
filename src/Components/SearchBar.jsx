@@ -13,7 +13,6 @@ const SearchBar = ({ windowSize }) => {
 		e.preventDefault();
 		setSearchValue(inputValue);
 		setHitsPerPage(e.target.childNodes[0].childNodes[3].childNodes[0].value);
-		setInputValue(e.target.childNodes[0].childNodes[1].childNodes[0].value);
 		e.target.childNodes[0].childNodes[1].childNodes[0].value = '';
 	};
 
@@ -37,7 +36,7 @@ const SearchBar = ({ windowSize }) => {
 							</button>
 						</Grid>
 						<Grid item md={2.5} xs={6}>
-							<select defaultValue={'DEFAULT'} className='searchHitsPerPage searchField'>
+							<select onChange={handleChange} defaultValue={'DEFAULT'} className='searchHitsPerPage searchField'>
 								<option value='DEFAULT' className='hitsPerPageDisabled' disabled>
 									pro Seite
 								</option>
